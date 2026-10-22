@@ -1,4 +1,6 @@
+jsx
 import './App.css'
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
@@ -8,7 +10,29 @@ import Contact from './components/Contact'
 import Insights from './components/Insights'
 import Footer from './components/Footer'
 
+import RetailSalesIntelligence from './pages/RetailSalesIntelligence'
+import WorkforceAnalytics from './pages/WorkforceAnalytics'
+import { jsx } from 'react/jsx-runtime'
+import BusinessPerformanceDashboard from './pages/BusinessPerformanceDashboard'
+
 function App() {
+  const path = window.location.pathname
+
+  // Retail Sales Intelligence page
+  if (path === '/projects/retail-sales-intelligence') {
+    return <RetailSalesIntelligence />
+  }
+
+  // Workforce Analytics page
+  if (path === '/projects/workforce-analytics') {
+    return <WorkforceAnalytics />
+  }
+
+  if (path === '/projects/business-performance-dashboard') {
+  return <BusinessPerformanceDashboard />
+}
+
+  // Main ASEIX DATA HOUSE homepage
   return (
     <div>
       <Navbar />
@@ -16,16 +40,12 @@ function App() {
       <Services />
       <Projects />
       <About />
-      <Contact />
       <Insights />
+      <Contact />
       <Footer />
-
-      <main>
-        <h1>ASEIX DATA HOUSE</h1>
-        <p>Data • Technology • Intelligence</p>
-      </main>
     </div>
   )
 }
 
 export default App
+

@@ -715,3 +715,2001 @@ nav a {
   padding: 16px 20px;
 }
 }
+
+/* =========================================
+   RETAIL SALES INTELLIGENCE
+   CASE STUDY
+========================================= */
+
+.case-study {
+  background: #07070a;
+}
+
+.case-study-hero {
+  min-height: 75vh;
+  padding: 120px 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.case-study-hero > p:first-child {
+  color: #9d7cff;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.case-study-hero h1 {
+  max-width: 1000px;
+  font-size: clamp(4rem, 9vw, 8rem);
+  line-height: 0.9;
+  letter-spacing: -5px;
+  margin-bottom: 40px;
+}
+
+.case-study-hero h1 span {
+  display: block;
+  color: #9d7cff;
+}
+
+.case-study-hero > p:last-child {
+  max-width: 650px;
+  color: #9696a3;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+
+/* OVERVIEW */
+
+.case-study-overview,
+.case-study-problem,
+.case-study-insights,
+.case-study-recommendations {
+  padding: 120px 7%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.case-study-overview > p:first-child,
+.case-study-problem > p:first-child,
+.case-study-insights > p:first-child,
+.case-study-recommendations > p:first-child,
+.case-study-data > p:first-child,
+.case-study-findings > p:first-child {
+  color: #9d7cff;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.case-study-overview h2,
+.case-study-problem h2,
+.case-study-insights h2,
+.case-study-recommendations h2 {
+  max-width: 900px;
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -3px;
+  margin-bottom: 40px;
+}
+
+.case-study-overview > p:last-child,
+.case-study-problem > p:last-child,
+.case-study-insights > p:last-child,
+.case-study-recommendations > p:last-child {
+  max-width: 750px;
+  color: #9696a3;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+
+/* DATA */
+
+.case-study-data {
+  padding: 120px 7%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.case-study-data h2,
+.case-study-findings h2 {
+  max-width: 900px;
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -3px;
+  margin-bottom: 60px;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.data-grid > div {
+  min-height: 220px;
+  padding: 35px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease;
+}
+
+.data-grid > div:hover {
+  background: rgba(157, 124, 255, 0.06);
+}
+
+.data-grid span {
+  display: block;
+  color: #9d7cff;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+.data-grid h3 {
+  font-size: 1.6rem;
+}
+
+
+/* FINDINGS */
+
+.case-study-findings {
+  padding: 120px 7%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.findings-grid > div {
+  min-height: 300px;
+  padding: 35px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.findings-grid span {
+  display: block;
+  color: #9d7cff;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+.findings-grid h3 {
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+}
+
+.findings-grid p {
+  color: #9696a3;
+  line-height: 1.7;
+}
+
+
+/* CASE STUDY SPACING */
+
+.case-study-insights,
+.case-study-recommendations {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* -----------------------------
+   RETAIL DASHBOARD
+----------------------------- */
+
+.dashboard-section {
+  padding: 120px 7%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dashboard-heading {
+  margin-bottom: 55px;
+}
+
+.dashboard-heading > p,
+.chart-heading > div > p {
+  color: #9d7cff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.dashboard-heading h2 {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  line-height: 1;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+}
+
+.dashboard-heading > span {
+  color: #9696a3;
+  line-height: 1.8;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 45px;
+}
+
+.kpi-card {
+  min-width: 0;
+  padding: 28px 22px;
+  background: #0d0d13;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.kpi-card:hover {
+  border-color: rgba(157, 124, 255, 0.5);
+  transform: translateY(-4px);
+}
+
+.kpi-card > span {
+  color: #9696a3;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.kpi-card h3 {
+  margin: 24px 0 12px;
+  color: #ffffff;
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  overflow-wrap: anywhere;
+}
+
+.kpi-card p {
+  color: #9696a3;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.dashboard-chart {
+  padding: 35px;
+  background: #0d0d13;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.chart-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.chart-heading h3 {
+  font-size: 1.8rem;
+}
+
+.chart-heading > span {
+  color: #9696a3;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.sales-chart {
+  display: grid;
+  grid-template-columns: 65px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.chart-y-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  color: #9696a3;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.chart-plot {
+  position: relative;
+  min-width: 0;
+  height: 295px;
+}
+
+.chart-grid-lines {
+  position: absolute;
+  inset: 0 0 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-grid-lines span {
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.sales-line-chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  overflow: visible;
+}
+
+.sales-line {
+  stroke: #9d7cff;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+
+.sales-point {
+  fill: #9d7cff;
+  stroke: #0d0d13;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+}
+
+.sales-point:hover {
+  r: 7;
+}
+
+.chart-x-labels {
+  position: absolute;
+  top: 258px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  color: #9696a3;
+  font-size: 0.7rem;
+}
+
+.chart-footnote {
+  margin-top: 25px;
+  color: #9696a3;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.dashboard-message {
+  color: #9696a3;
+  padding: 30px 0;
+}
+
+.case-study-back {
+  padding: 50px 7%;
+}
+
+.case-study-back a {
+  color: #9d7cff;
+  text-decoration: none;
+}
+
+.case-study-back a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboard-section {
+    padding: 80px 5%;
+  }
+
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-chart {
+    padding: 20px 12px;
+  }
+
+  .chart-heading {
+    flex-direction: column;
+  }
+
+  .sales-chart {
+    grid-template-columns: 45px minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .chart-y-labels,
+  .chart-x-labels {
+    font-size: 0.6rem;
+  }
+
+  .chart-heading h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* ========================================
+   PRODUCT PERFORMANCE CHARTS
+======================================== */
+
+.performance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+  align-items: start;
+}
+
+.product-performance {
+  min-width: 0;
+}
+
+.product-chart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.product-row {
+  width: 100%;
+}
+
+.product-row-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.product-row-heading span {
+  color: #e8e8ef;
+  font-size: 0.88rem;
+}
+
+.product-row-heading strong {
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.product-bar-track {
+  width: 100%;
+  height: 9px;
+  background: #24232e;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product-bar {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}
+
+.sales-bar {
+  background: linear-gradient(90deg, #7357d9, #b39aff);
+}
+
+.profit-bar {
+  background: linear-gradient(90deg, #3caa91, #83e0c1);
+}
+
+.product-performance .chart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.chart-badge {
+  display: inline-block;
+  padding: 6px 9px;
+  border: 1px solid rgba(157, 124, 255, 0.25);
+  border-radius: 6px;
+  background: rgba(157, 124, 255, 0.08);
+  color: #bda9ff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* Responsive layout */
+
+@media (max-width: 1000px) {
+  .performance-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-chart-list {
+    gap: 19px;
+  }
+
+  .product-row-heading span {
+    font-size: 0.82rem;
+  }
+
+  .product-row-heading strong {
+    font-size: 0.76rem;
+  }
+}
+
+/* ========================================
+   GEOGRAPHICAL SALES ANALYSIS
+======================================== */
+
+.geography-section {
+  margin-top: 24px;
+  padding: 32px;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #b39aff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.geography-section .chart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.geography-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 30px 0 36px;
+}
+
+.geography-summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: rgba(157, 124, 255, 0.06);
+  border: 1px solid rgba(157, 124, 255, 0.16);
+  border-radius: 12px;
+  min-width: 0;
+}
+
+.geography-summary-item > span {
+  color: #a5a3b5;
+  font-size: 0.8rem;
+}
+
+.geography-summary-item strong {
+  color: #ffffff;
+  font-size: 1.1rem;
+  overflow-wrap: anywhere;
+}
+
+.province-chart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.province-row {
+  width: 100%;
+}
+
+.province-row-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.province-name {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #e8e8ef;
+  font-size: 0.92rem;
+}
+
+.province-rank {
+  color: #9d7cff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 22px;
+}
+
+.province-row-heading > strong {
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.province-bar-track {
+  width: 100%;
+  height: 10px;
+  background: #24232e;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.province-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #6547c7, #b39aff);
+  border-radius: 20px;
+  transition: width 0.6s ease;
+}
+
+.geography-footnote {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #9290a2;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+/* Responsive layout */
+
+@media (max-width: 700px) {
+  .geography-section {
+    padding: 22px;
+  }
+
+  .geography-summary {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 24px 0 30px;
+  }
+
+  .geography-summary-item {
+    padding: 16px;
+  }
+
+  .geography-section .chart-heading {
+    flex-direction: column;
+  }
+
+  .province-row-heading {
+    gap: 10px;
+  }
+
+  .province-name {
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+
+  .province-row-heading > strong {
+    font-size: 0.78rem;
+  }
+
+}
+
+.segment-section {
+  margin-top: 24px;
+  padding: 32px;
+}
+
+.segment-section .chart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.segment-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 28px 0 34px;
+}
+
+.segment-summary-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  min-width: 0;
+  background: rgba(157, 124, 255, 0.06);
+  border: 1px solid rgba(157, 124, 255, 0.16);
+  border-radius: 12px;
+}
+
+.segment-summary-card span {
+  color: #a5a3b5;
+  font-size: 0.82rem;
+}
+
+.segment-summary-card strong {
+  color: #ffffff;
+  font-size: 1.15rem;
+  overflow-wrap: anywhere;
+}
+
+.segment-chart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.segment-row-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.segment-name {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #e8e8ef;
+  font-size: 0.92rem;
+}
+
+.segment-rank {
+  min-width: 22px;
+  color: #b39aff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.segment-row-heading > strong {
+  color: #ffffff;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.segment-bar-track {
+  width: 100%;
+  height: 10px;
+  background: #24232e;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.segment-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #7357d9, #b39aff);
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}
+
+@media (max-width: 700px) {
+  .segment-section {
+    padding: 22px;
+  }
+
+  .segment-section .chart-heading {
+    flex-direction: column;
+  }
+
+  .segment-summary {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .segment-summary-card {
+    padding: 16px;
+  }
+
+  .segment-name {
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+
+  .segment-row-heading > strong {
+    font-size: 0.78rem;
+  }
+}
+
+/* ========================================
+   ASEIX DASHBOARD — VISUAL POLISH
+   ======================================== */
+.dashboard-section {
+  background: radial-gradient(ellipse at 12% 0%, rgba(157, 124, 255, 0.07), transparent 38%);
+}
+
+.dashboard-heading {
+  max-width: 980px;
+}
+
+.dashboard-heading > span {
+  display: block;
+  max-width: 720px;
+  font-size: 1rem;
+}
+
+.kpi-card,
+.dashboard-chart {
+  border-radius: 16px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.14);
+}
+
+.kpi-card {
+  background: linear-gradient(145deg, rgba(20, 19, 30, 0.98), rgba(12, 12, 18, 0.98));
+}
+
+.kpi-card > span {
+  display: block;
+  line-height: 1.5;
+}
+
+.kpi-card h3 {
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.dashboard-chart {
+  background: linear-gradient(145deg, rgba(17, 17, 25, 0.98), rgba(11, 11, 16, 0.98));
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chart-heading h3 {
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.chart-heading > span {
+  line-height: 1.6;
+  text-align: right;
+}
+
+.product-performance .chart-heading > div,
+.geography-section .chart-heading > div,
+.segment-section .chart-heading > div {
+  min-width: 0;
+}
+
+.product-performance .chart-heading h3,
+.geography-section .chart-heading h3,
+.segment-section .chart-heading h3 {
+  margin-bottom: 4px;
+}
+
+.product-performance .chart-heading > span,
+.geography-section .chart-heading > span,
+.segment-section .chart-heading > span {
+  flex-shrink: 0;
+}
+
+.product-row-heading span,
+.province-name,
+.segment-name {
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.geography-section,
+.segment-section {
+  border-radius: 16px;
+}
+
+.geography-summary-item,
+.segment-summary-card {
+  background: linear-gradient(145deg, rgba(157, 124, 255, 0.09), rgba(157, 124, 255, 0.035));
+}
+
+.product-bar-track,
+.province-bar-track,
+.segment-bar-track {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.chart-badge {
+  line-height: 1.4;
+}
+
+.case-study-back a:focus-visible,
+.sales-point:focus-visible {
+  outline: 2px solid #bda9ff;
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .dashboard-heading {
+    margin-bottom: 38px;
+  }
+
+  .dashboard-heading h2 {
+    letter-spacing: -2px;
+  }
+
+  .kpi-card {
+    padding: 24px 20px;
+  }
+
+  .kpi-card h3 {
+    margin-top: 18px;
+  }
+
+  .dashboard-chart,
+  .geography-section,
+  .segment-section {
+    border-radius: 12px;
+  }
+
+  .chart-heading > span {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kpi-card,
+  .product-bar,
+  .province-bar,
+  .segment-bar {
+    transition: none;
+  }
+}
+
+
+/* ========================================
+   DYNAMIC BUSINESS INSIGHTS
+======================================== */
+
+.business-insights-section {
+  padding: 110px 7%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.business-insights-heading {
+  max-width: 850px;
+  margin-bottom: 42px;
+}
+
+.business-insights-heading > p {
+  color: #9d7cff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 18px;
+}
+
+.business-insights-heading h2 {
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -2.5px;
+  margin-bottom: 22px;
+}
+
+.business-insights-heading > span {
+  display: block;
+  color: #9696a3;
+  line-height: 1.8;
+}
+
+.business-insights-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.business-insight-card {
+  min-width: 0;
+  padding: 28px;
+  background: linear-gradient(145deg, rgba(157, 124, 255, 0.09), #0d0d13 65%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.business-insight-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(157, 124, 255, 0.45);
+}
+
+.business-insight-number {
+  display: block;
+  color: #b39aff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.business-insight-card h3 {
+  color: #ffffff;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  line-height: 1.2;
+  margin-bottom: 14px;
+  overflow-wrap: anywhere;
+}
+
+.business-insight-card p {
+  color: #a5a3b5;
+  line-height: 1.75;
+}
+
+.business-recommendations {
+  margin-top: 24px;
+  padding: 32px;
+  background: #0d0d13;
+  border: 1px solid rgba(157, 124, 255, 0.2);
+  border-radius: 14px;
+}
+
+.business-recommendations h3 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  margin: 6px 0 22px;
+}
+
+.business-recommendations ul {
+  display: grid;
+  gap: 16px;
+  padding-left: 22px;
+  color: #a5a3b5;
+  line-height: 1.8;
+}
+
+.business-recommendations li::marker {
+  color: #9d7cff;
+}
+
+.business-recommendations strong {
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .business-insights-section {
+    padding: 80px 6%;
+  }
+
+  .business-insights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .business-insight-card {
+    padding: 24px;
+  }
+
+  .business-insight-number {
+    margin-bottom: 22px;
+  }
+
+  .business-recommendations {
+    padding: 24px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .business-insight-card {
+    transition: none;
+  }
+
+  .business-insight-card:hover {
+    transform: none;
+  }
+}
+
+/* BUSINESS PERFORMANCE DASHBOARD */
+
+.business-performance-page {
+min-height: 100vh;
+}
+
+.business-performance-page .case-study-hero {
+padding-bottom: 40px;
+}
+
+.business-performance-page .case-study-intro {
+max-width: 720px;
+line-height: 1.8;
+}
+
+.business-performance-tags {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 24px;
+}
+
+.business-performance-tags span {
+padding: 8px 14px;
+border: 1px solid rgba(157, 124, 255, 0.35);
+border-radius: 30px;
+background: rgba(157, 124, 255, 0.08);
+color: #c7b5ff;
+font-size: 0.82rem;
+}
+
+.business-performance-notice {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+align-items: center;
+margin: 0 0 38px;
+padding: 16px 20px;
+border: 1px solid rgba(157, 124, 255, 0.25);
+border-radius: 12px;
+background: rgba(157, 124, 255, 0.06);
+color: #c8c8d3;
+font-size: 0.9rem;
+}
+
+.business-performance-notice strong {
+color: #c7b5ff;
+}
+
+.business-performance-page .dashboard-section {
+margin-bottom: 46px;
+}
+
+.business-performance-heading {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 22px;
+margin-bottom: 24px;
+}
+
+.business-performance-heading h2,
+.business-insights-section > h2 {
+margin: 8px 0;
+font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.business-performance-heading p:not(.eyebrow),
+.business-insights-intro {
+color: #a7a7b5;
+line-height: 1.7;
+}
+
+.business-filter {
+display: flex;
+flex-direction: column;
+gap: 8px;
+color: #b8b8c6;
+font-size: 0.85rem;
+}
+
+.business-filter select {
+min-width: 150px;
+padding: 11px 14px;
+border: 1px solid #393543;
+border-radius: 9px;
+background: #17151e;
+color: #fff;
+font: inherit;
+cursor: pointer;
+}
+
+.business-performance-kpis {
+gap: 18px;
+}
+
+.business-performance-kpis .kpi-card {
+min-width: 0;
+padding: 23px;
+border: 1px solid #302b3b;
+border-radius: 15px;
+background: linear-gradient(145deg, #191720, #111116);
+}
+
+.business-performance-kpis .kpi-card > span {
+display: block;
+margin-bottom: 14px;
+color: #aaa7b8;
+font-size: 0.88rem;
+}
+
+.business-performance-kpis .kpi-card strong {
+display: block;
+overflow-wrap: anywhere;
+color: #c7b5ff;
+font-size: clamp(1.25rem, 2vw, 1.8rem);
+}
+
+.business-performance-kpis .kpi-card small {
+display: block;
+margin-top: 12px;
+color: #858392;
+line-height: 1.5;
+}
+
+.business-chart-panel {
+padding: 26px;
+border: 1px solid #302b3b;
+border-radius: 16px;
+background: #111116;
+}
+
+.business-chart-legend {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin: 18px 0;
+color: #b8b8c6;
+font-size: 0.85rem;
+}
+
+.business-chart-legend span {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+}
+
+.business-chart-legend i {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 3px;
+}
+
+.legend-revenue {
+background: #9d7cff;
+}
+
+.legend-expenses {
+background: #6e8cff;
+}
+
+.legend-profit {
+background: #54c9a5;
+}
+
+.business-monthly-chart {
+display: grid;
+grid-template-columns: repeat(12, minmax(0, 1fr));
+gap: 12px;
+align-items: end;
+min-height: 290px;
+padding-top: 20px;
+}
+
+.business-month-column {
+display: flex;
+min-width: 0;
+height: 260px;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+gap: 10px;
+}
+
+.business-month-value {
+color: #bdb9cb;
+font-size: 0.68rem;
+text-align: center;
+overflow-wrap: anywhere;
+}
+
+.business-bar-track {
+display: flex;
+width: 100%;
+height: 190px;
+align-items: flex-end;
+justify-content: center;
+border-bottom: 1px solid #383341;
+background: repeating-linear-gradient(
+to bottom,
+transparent 0,
+transparent 46px,
+rgba(255, 255, 255, 0.045) 47px
+);
+}
+
+.business-bar {
+width: min(100%, 35px);
+min-height: 4px;
+border-radius: 6px 6px 0 0;
+transition: height 0.3s ease;
+}
+
+.business-bar-revenue {
+background: linear-gradient(to top, #7052c9, #b29aff);
+}
+
+.business-bar-expenses {
+background: linear-gradient(to top, #465eb5, #8ca4ff);
+}
+
+.business-bar-profit {
+background: linear-gradient(to top, #27866d, #70dfbb);
+}
+
+.business-month-label {
+color: #aaa7b8;
+font-size: 0.78rem;
+}
+
+.business-chart-footnote {
+margin-top: 20px;
+color: #858392;
+font-size: 0.82rem;
+line-height: 1.6;
+}
+
+.business-unit-grid {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 18px;
+}
+
+.business-unit-card {
+padding: 22px;
+border: 1px solid #302b3b;
+border-radius: 14px;
+background: #15141b;
+}
+
+.business-unit-title,
+.business-unit-number,
+.business-expense-info {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.business-unit-title {
+margin-bottom: 22px;
+}
+
+.business-unit-title h3 {
+margin: 0;
+font-size: 1.05rem;
+}
+
+.business-unit-title span {
+color: #bba6ff;
+font-size: 0.83rem;
+}
+
+.business-unit-number {
+margin: 12px 0;
+color: #a7a5b3;
+font-size: 0.88rem;
+}
+
+.business-unit-number strong {
+color: #f2f0f8;
+}
+
+.business-unit-track,
+.business-expense-track {
+height: 8px;
+overflow: hidden;
+border-radius: 20px;
+background: #302b3b;
+}
+
+.business-unit-track {
+margin-top: 18px;
+}
+
+.business-unit-fill {
+height: 100%;
+border-radius: inherit;
+background: linear-gradient(90deg, #7656d8, #b29aff);
+}
+
+.business-unit-card > small {
+display: block;
+margin-top: 9px;
+color: #858392;
+}
+
+.business-expense-list {
+display: grid;
+gap: 24px;
+}
+
+.business-expense-info {
+margin-bottom: 10px;
+color: #bdbac9;
+font-size: 0.9rem;
+}
+
+.business-expense-info strong {
+color: #f2f0f8;
+}
+
+.business-expense-fill {
+height: 100%;
+border-radius: inherit;
+background: linear-gradient(90deg, #7052c9, #b29aff);
+}
+
+.business-expense-row > small {
+display: block;
+margin-top: 8px;
+color: #858392;
+text-align: right;
+}
+
+.business-insights-section {
+padding: 28px;
+border: 1px solid #302b3b;
+border-radius: 16px;
+background: linear-gradient(145deg, #17141f, #111116);
+}
+
+.business-insights-intro {
+margin-bottom: 24px;
+}
+
+.business-insights-grid {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 16px;
+margin-top: 24px;
+}
+
+.business-performance-page .business-insight-card {
+padding: 20px;
+border: 1px solid #383044;
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.025);
+}
+
+.business-insight-label {
+color: #bba6ff;
+font-size: 0.8rem;
+}
+
+.business-performance-page .business-insight-card h3 {
+margin: 12px 0;
+color: #f4f0ff;
+font-size: 1.1rem;
+}
+
+.business-performance-page .business-insight-card p {
+color: #aaa7b8;
+font-size: 0.88rem;
+line-height: 1.7;
+overflow-wrap: anywhere;
+}
+
+.business-recommendations {
+margin-top: 28px;
+padding: 22px;
+border-left: 3px solid #9d7cff;
+border-radius: 0 10px 10px 0;
+background: rgba(157, 124, 255, 0.06);
+}
+
+.business-recommendations h3 {
+margin-top: 0;
+}
+
+.business-recommendations ul {
+padding-left: 20px;
+color: #c0bdcb;
+line-height: 1.9;
+}
+
+.business-recommendations li {
+margin-bottom: 8px;
+}
+
+.business-recommendations > p {
+margin-bottom: 0;
+color: #858392;
+font-size: 0.82rem;
+line-height: 1.7;
+}
+
+.business-performance-footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 14px;
+padding: 25px 0;
+border-top: 1px solid #302b3b;
+}
+
+.business-performance-footer > span {
+color: #c7b5ff;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
+.business-performance-footer p {
+color: #858392;
+font-size: 0.85rem;
+}
+
+.business-performance-footer a {
+color: #c7b5ff;
+text-decoration: none;
+}
+
+@media (max-width: 900px) {
+.business-monthly-chart {
+grid-template-columns: repeat(6, minmax(0, 1fr));
+row-gap: 22px;
+}
+
+.business-insights-grid {
+grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 600px) {
+.business-chart-panel,
+.business-insights-section {
+padding: 18px;
+}
+
+.business-unit-grid {
+grid-template-columns: 1fr;
+}
+
+.business-monthly-chart {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.business-month-column {
+height: 230px;
+}
+
+.business-month-value {
+font-size: 0.72rem;
+}
+
+.business-performance-footer {
+align-items: flex-start;
+flex-direction: column;
+}
+}
+
+/* WORKFORCE ANALYTICS — MATCH BPD */
+
+.workforce-page {
+  background: #0b0b0f;
+  color: #f5f3fa;
+  padding: 12px 32px 32px;
+}
+
+.workforce-page .case-study-hero {
+padding-bottom: 40px;
+}
+
+.workforce-page .case-study-hero h1 {
+color: #f5f3fa;
+font-size: clamp(2.2rem, 5vw, 3.5rem);
+}
+
+.workforce-page .case-study-hero > p {
+color: #b8b5c5;
+line-height: 1.8;
+}
+
+.workforce-page .case-study-hero > p:first-child,
+.workforce-page .case-study-overview > p:first-child,
+.workforce-page .dashboard-heading > p,
+.workforce-page .chart-heading > div > p,
+.workforce-page .business-insights-heading > p {
+color: #b69aff;
+font-size: 0.8rem;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
+.workforce-page .workforce-demo-label {
+display: inline-block;
+margin-top: 16px;
+padding: 9px 13px;
+border: 1px solid #423252;
+border-radius: 8px;
+background: #171222;
+color: #c6b2ff;
+font-size: 0.75rem;
+letter-spacing: 1px;
+}
+
+.workforce-page .case-study-overview {
+margin-bottom: 42px;
+}
+
+.workforce-page .case-study-overview h2,
+.workforce-page .dashboard-heading h2,
+.workforce-page .business-insights-heading h2 {
+color: #f5f3fa;
+font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.workforce-page .case-study-overview > p:not(:first-child),
+.workforce-page .dashboard-heading > span {
+color: #aaa7b8;
+line-height: 1.8;
+}
+
+.workforce-page .dashboard-section {
+margin-bottom: 46px;
+}
+
+.workforce-page .dashboard-heading {
+margin-bottom: 24px;
+}
+
+.workforce-page .kpi-grid {
+gap: 18px;
+margin-bottom: 28px;
+}
+
+.workforce-page .kpi-card {
+min-width: 0;
+padding: 23px;
+border: 1px solid #30263f;
+border-radius: 15px;
+background: linear-gradient(145deg, #191720, #111116);
+color: #f5f3fa;
+}
+
+.workforce-page .kpi-card > span {
+color: #aaa7b8;
+font-size: 0.82rem;
+letter-spacing: 0.6px;
+}
+
+.workforce-page .kpi-card h3 {
+margin: 14px 0;
+color: #b69aff;
+font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+.workforce-page .kpi-card p {
+color: #858392;
+line-height: 1.6;
+}
+
+.workforce-page .dashboard-chart {
+margin-bottom: 24px;
+padding: 26px;
+border: 1px solid #30263f;
+border-radius: 16px;
+background: #111116;
+color: #f5f3fa;
+}
+
+.workforce-page .chart-heading {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 20px;
+margin-bottom: 28px;
+}
+
+.workforce-page .chart-heading h3 {
+margin-top: 8px;
+color: #f5f3fa;
+font-size: 1.2rem;
+}
+
+.workforce-page .chart-heading > span {
+color: #aaa7b8;
+font-size: 0.85rem;
+}
+
+.workforce-page .workforce-filter {
+display: flex;
+flex-direction: column;
+gap: 8px;
+color: #b8b5c5;
+font-size: 0.85rem;
+}
+
+.workforce-page .workforce-filter select {
+min-width: 170px;
+padding: 11px 14px;
+border: 1px solid #59437c;
+border-radius: 9px;
+background: #17131f;
+color: #f5f3fa;
+font: inherit;
+}
+
+.workforce-page .workforce-department-list {
+display: grid;
+gap: 23px;
+}
+
+.workforce-page .workforce-department-label {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 10px;
+color: #c0bdcb;
+font-size: 0.9rem;
+}
+
+.workforce-page .workforce-department-label strong {
+color: #f5f3fa;
+}
+
+.workforce-page .workforce-bar-track {
+height: 9px;
+overflow: hidden;
+border-radius: 20px;
+background: #302b3b;
+}
+
+.workforce-page .workforce-bar-track > span {
+display: block;
+height: 100%;
+border-radius: inherit;
+background: linear-gradient(90deg, #7955d9, #b69aff);
+transition: width 0.3s ease;
+}
+
+.workforce-page .workforce-monthly-chart {
+gap: 12px;
+}
+
+.workforce-page .workforce-month-bars {
+border-bottom: 1px solid #383341;
+background: repeating-linear-gradient(
+to bottom,
+transparent 0,
+transparent 44px,
+rgba(255, 255, 255, 0.045) 45px
+);
+}
+
+.workforce-page .workforce-hire-bar {
+background: linear-gradient(to top, #7052c9, #b69aff);
+border-radius: 5px 5px 0 0;
+}
+
+.workforce-page .workforce-exit-bar {
+background: linear-gradient(to top, #465eb5, #8ca4ff);
+border-radius: 5px 5px 0 0;
+}
+
+.workforce-page .workforce-month-label {
+color: #aaa7b8;
+font-size: 0.78rem;
+}
+
+.workforce-page .workforce-legend {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 22px;
+color: #b8b5c5;
+font-size: 0.85rem;
+}
+
+.workforce-page .workforce-hire-key,
+.workforce-page .workforce-exit-key {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin-right: 7px;
+border-radius: 3px;
+}
+
+.workforce-page .workforce-hire-key {
+background: #9d7cff;
+}
+
+.workforce-page .workforce-exit-key {
+background: #6e8cff;
+}
+
+.workforce-page .chart-footnote {
+margin-top: 20px;
+color: #858392;
+font-size: 0.82rem;
+line-height: 1.7;
+}
+
+.workforce-page .workforce-table-wrap {
+overflow-x: auto;
+}
+
+.workforce-page .workforce-table {
+width: 100%;
+border-collapse: collapse;
+color: #c0bdcb;
+}
+
+.workforce-page .workforce-table th,
+.workforce-page .workforce-table td {
+padding: 15px 12px;
+border-bottom: 1px solid #30263f;
+text-align: left;
+}
+
+.workforce-page .workforce-table th {
+color: #b69aff;
+font-size: 0.8rem;
+letter-spacing: 0.5px;
+}
+
+.workforce-page .workforce-table tbody tr:hover {
+background: rgba(157, 124, 255, 0.06);
+}
+
+.workforce-page .business-insights-section {
+margin-bottom: 40px;
+padding: 28px;
+border: 1px solid #30263f;
+border-radius: 16px;
+background: linear-gradient(145deg, #17141f, #111116);
+}
+
+.workforce-page .business-insights-grid {
+gap: 16px;
+}
+
+.workforce-page .business-insight-card {
+padding: 20px;
+border: 1px solid #423252;
+border-radius: 12px;
+background: #1a1624;
+}
+
+.workforce-page .business-insight-card > span {
+color: #b69aff;
+font-size: 0.8rem;
+}
+
+.workforce-page .business-insight-card h3 {
+margin: 12px 0;
+color: #f5f3fa;
+overflow-wrap: anywhere;
+}
+
+.workforce-page .business-insight-card p {
+color: #aaa7b8;
+line-height: 1.7;
+}
+
+.workforce-page .business-recommendations {
+margin-top: 28px;
+padding: 22px;
+border-left: 3px solid #9d7cff;
+border-radius: 0 10px 10px 0;
+background: rgba(157, 124, 255, 0.06);
+}
+
+.workforce-page .business-recommendations h3 {
+color: #f5f3fa;
+}
+
+.workforce-page .business-recommendations ul {
+color: #c0bdcb;
+line-height: 1.9;
+}
+
+.workforce-page .business-recommendations li {
+margin-bottom: 10px;
+}
+
+.workforce-page .business-recommendations strong {
+color: #c6b2ff;
+}
+
+.workforce-page .case-study-back {
+margin-top: 35px;
+}
+
+.workforce-page .case-study-back a {
+display: inline-block;
+padding: 12px 18px;
+border: 1px solid #59437c;
+border-radius: 9px;
+background: #171222;
+color: #c6b2ff;
+text-decoration: none;
+transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.workforce-page .case-study-back a:hover {
+border-color: #9d7cff;
+background: #241a38;
+}
+
+@media (max-width: 900px) {
+.workforce-page .business-insights-grid {
+grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 600px) {
+.workforce-page {
+padding: 20px 16px;
+}
+
+.workforce-page .dashboard-chart,
+.workforce-page .business-insights-section {
+padding: 18px;
+}
+
+.workforce-page .chart-heading {
+align-items: flex-start;
+flex-direction: column;
+}
+
+.workforce-page .workforce-filter,
+.workforce-page .workforce-filter select {
+width: 100%;
+}
+
+.workforce-page .workforce-table th,
+.workforce-page .workforce-table td {
+padding: 12px 8px;
+font-size: 0.85rem;
+}
+}
+
+/* MATCH THE BACK-TO-ASEIX BUTTON ACROSS ALL DASHBOARDS */
+
+.retail-page .case-study-back a,
+.business-performance-page .case-study-back a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 1px solid #59437c;
+  border-radius: 9px;
+  background: #171222;
+  color: #c6b2ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+/* RSI AND BPD — MATCH THE WORKFORCE BACK BUTTON */
+
+.case-study .case-study-back a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 1px solid #59437c;
+  border-radius: 9px;
+  background: #171222;
+  color: #c6b2ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.case-study .case-study-back a:hover {
+  background: #251a38;
+  border-color: #9d7cff;
+}
+
+
+/* RSI — DESCRIPTION BOX */
+
+.case-study .case-study-hero > p:not(:first-child) {
+  background: #171222;
+  border: 1px solid #59437c;
+  border-radius: 10px;
+  padding: 18px 22px;
+  color: #c8c2d8;
+  line-height: 1.8;
+  max-width: 850px;
+  margin-top: 20px;
+}
+

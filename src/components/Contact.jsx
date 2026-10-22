@@ -17,7 +17,7 @@ function Contact() {
           something meaningful with your data.
         </p>
 
-        <a href="mailto:hello@aseixdatahouse.com" className="contact-button">
+        <a href="mailto:aseix.datahouse@gmail.com" className="contact-button">
           Start a Conversation →
         </a>
       </div>

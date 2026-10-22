@@ -5,21 +5,24 @@ function Projects() {
       category: 'DATA ANALYTICS',
       title: 'Retail Sales Intelligence',
       description:
-        'A data analytics solution designed to uncover sales trends, product performance, customer behaviour, and revenue opportunities.'
+        'A data analytics solution designed to uncover sales trends, product performance, customer behaviour, and revenue opportunities.',
+      href: '/projects/retail-sales-intelligence'
     },
     {
       number: '02',
       category: 'BUSINESS INTELLIGENCE',
       title: 'Workforce Analytics',
       description:
-        'An analytical solution designed to transform workforce data into insights around performance, trends, and operational efficiency.'
+        'An analytical solution designed to transform workforce data into insights around performance, trends, and operational efficiency.',
+      href: '/projects/workforce-analytics'
     },
     {
       number: '03',
       category: 'DATA VISUALIZATION',
       title: 'Business Performance Dashboard',
       description:
-        'An interactive dashboard designed to give decision-makers a clear view of business performance through meaningful data visualizations.'
+        'An interactive dashboard designed to give decision-makers a clear view of business performance through meaningful data visualizations.',
+      href: '/projects/business-performance-dashboard'
     }
   ]
 
@@ -33,18 +36,14 @@ function Projects() {
       <div className="projects-list">
         {projects.map((project) => (
           <article className="project-card" key={project.number}>
-            <div className="project-number">
-              {project.number}
-            </div>
+            <div className="project-number">{project.number}</div>
 
             <div className="project-content">
               <p>{project.category}</p>
               <h3>{project.title}</h3>
               <span>{project.description}</span>
 
-              <a href="#">
-                View Project →
-              </a>
+              <a href={project.href}>View Project →</a>
             </div>
           </article>
         ))}
@@ -54,3 +53,4 @@ function Projects() {
 }
 
 export default Projects
+

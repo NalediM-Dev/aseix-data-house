@@ -1,0 +1,197 @@
+{
+  "summary": {
+    "totalSales": 22891450.0,
+    "totalProfit": 6950800.0,
+    "profitMargin": 30.36,
+    "totalOrders": 2000,
+    "totalCustomers": 496,
+    "totalProducts": 10,
+    "totalProvinces": 9
+  },
+  "monthlySales": [
+    {
+      "month": 1,
+      "sales": 1856700
+    },
+    {
+      "month": 2,
+      "sales": 1756150
+    },
+    {
+      "month": 3,
+      "sales": 2248900
+    },
+    {
+      "month": 4,
+      "sales": 1404300
+    },
+    {
+      "month": 5,
+      "sales": 1869250
+    },
+    {
+      "month": 6,
+      "sales": 1677650
+    },
+    {
+      "month": 7,
+      "sales": 1800600
+    },
+    {
+      "month": 8,
+      "sales": 2205850
+    },
+    {
+      "month": 9,
+      "sales": 1858350
+    },
+    {
+      "month": 10,
+      "sales": 2266750
+    },
+    {
+      "month": 11,
+      "sales": 1910900
+    },
+    {
+      "month": 12,
+      "sales": 2036050
+    }
+  ],
+  "salesByProduct": [
+    {
+      "product": "Laptop",
+      "sales": 6762500
+    },
+    {
+      "product": "Smartphone",
+      "sales": 5627000
+    },
+    {
+      "product": "Tablet",
+      "sales": 3377000
+    },
+    {
+      "product": "Monitor",
+      "sales": 2360400
+    },
+    {
+      "product": "Printer",
+      "sales": 1492400
+    },
+    {
+      "product": "External Hard Drive",
+      "sales": 1040400
+    },
+    {
+      "product": "Headphones",
+      "sales": 769200
+    },
+    {
+      "product": "Webcam",
+      "sales": 644100
+    },
+    {
+      "product": "Keyboard",
+      "sales": 552500
+    },
+    {
+      "product": "Mouse",
+      "sales": 265950
+    }
+  ],
+  "profitByProduct": [
+    {
+      "product": "Laptop",
+      "profit": 1893500
+    },
+    {
+      "product": "Smartphone",
+      "profit": 1522600
+    },
+    {
+      "product": "Tablet",
+      "profit": 982400
+    },
+    {
+      "product": "Monitor",
+      "profit": 730600
+    },
+    {
+      "product": "Printer",
+      "profit": 479700
+    },
+    {
+      "product": "External Hard Drive",
+      "profit": 404600
+    },
+    {
+      "product": "Headphones",
+      "profit": 320500
+    },
+    {
+      "product": "Webcam",
+      "profit": 271200
+    },
+    {
+      "product": "Keyboard",
+      "profit": 227500
+    },
+    {
+      "product": "Mouse",
+      "profit": 118200
+    }
+  ],
+  "salesByProvince": [
+    {
+      "province": "Western Cape",
+      "sales": 2924700
+    },
+    {
+      "province": "Limpopo",
+      "sales": 2909900
+    },
+    {
+      "province": "Gauteng",
+      "sales": 2784600
+    },
+    {
+      "province": "Eastern Cape",
+      "sales": 2667600
+    },
+    {
+      "province": "KwaZulu-Natal",
+      "sales": 2530700
+    },
+    {
+      "province": "Northern Cape",
+      "sales": 2406950
+    },
+    {
+      "province": "North West",
+      "sales": 2327600
+    },
+    {
+      "province": "Mpumalanga",
+      "sales": 2210500
+    },
+    {
+      "province": "Free State",
+      "sales": 2128900
+    }
+  ],
+  "salesBySegment": [
+    {
+      "segment": "Corporate",
+      "sales": 7859250
+    },
+    {
+      "segment": "Consumer",
+      "sales": 7775100
+    },
+    {
+      "segment": "Small Business",
+      "sales": 7257100
+    }
+  ]
+}
