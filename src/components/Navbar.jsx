@@ -11,6 +11,7 @@ function Navbar() {
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
         <a href="#insights">Insights</a>
+        <a href="/pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -18,3 +19,4 @@ function Navbar() {
 }
 
 export default Navbar
+

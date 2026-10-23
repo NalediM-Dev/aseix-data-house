@@ -9,6 +9,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Insights from './components/Insights'
 import Footer from './components/Footer'
+import Pricing from './pages/Pricing'
 
 import RetailSalesIntelligence from './pages/RetailSalesIntelligence'
 import WorkforceAnalytics from './pages/WorkforceAnalytics'
@@ -17,6 +18,11 @@ import BusinessPerformanceDashboard from './pages/BusinessPerformanceDashboard'
 
 function App() {
   const path = window.location.pathname
+
+  // Pricing page
+if (path === '/pricing') {
+  return <Pricing />
+}
 
   // Retail Sales Intelligence page
   if (path === '/projects/retail-sales-intelligence') {
