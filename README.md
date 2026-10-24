@@ -1,16 +1,162 @@
-# React + Vite
+# ASEIX DATA HOUSE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Data, Technology & Intelligence
 
-Currently, two official plugins are available:
+**ASEIX DATA HOUSE** is a data and technology venture focused on building practical digital solutions that help businesses understand their data, improve visibility into performance, and make informed decisions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Live Website:** https://aseix-data-house.pages.dev/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+ASEIX DATA HOUSE brings together data analytics, business intelligence, data visualisation, and software development to turn business needs into useful digital solutions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website serves as the business's digital home, showcasing its services, projects, and insights into how data and technology can support better business decisions.
+
+## Services
+
+* **Data Analytics** — Explore business data to identify patterns, trends, and opportunities.
+* **Business Intelligence** — Present business performance through meaningful metrics and dashboards.
+* **Data Visualisation** — Transform data into clear, accessible visual representations.
+* **Software Solutions** — Develop web-based solutions tailored to practical business needs.
+
+## Featured Projects
+
+### Retail Sales Intelligence
+
+A data analytics project focused on exploring retail sales performance, revenue, profit, product performance, and business trends.
+
+### Workforce Analytics
+
+An analytics concept focused on workforce metrics, employee turnover, satisfaction, and organisational performance.
+
+### Business Performance Dashboard
+
+A dashboard concept designed to help businesses monitor important performance indicators and interpret key business metrics.
+
+Visit the live website to explore the available projects and Insights articles.
+
+## Website Features
+
+* Responsive business website.
+* Services and project showcase.
+* Dedicated project and Insights pages.
+* Article pages covering data, business intelligence, and actionable insights.
+* Pricing page.
+* Contact section for business enquiries.
+* Dark visual design with purple accents.
+
+## Technologies
+
+* **React** — Component-based user interface.
+* **JavaScript** — Application logic and interactivity.
+* **Vite** — Development server and production build tooling.
+* **HTML5** — Web page structure.
+* **CSS3** — Styling and responsive layouts.
+* **Git and GitHub** — Version control and source code hosting.
+* **Cloudflare Pages** — Website hosting.
+
+### Data Analytics Tools
+
+The associated Retail Sales Intelligence work also uses:
+
+* Python
+* Pandas
+* Data visualisation tools
+
+## Getting Started
+
+To run the website locally, follow these steps.
+
+### Prerequisites
+
+Install a supported version of Node.js and npm.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/NalediM-Dev/aseix-data-house.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd aseix-data-house
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the website.
+
+## Production Build
+
+To generate an optimised production build, run:
+
+```bash
+npm run build
+```
+
+Vite creates the production-ready files in the `dist` directory.
+
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+aseix-data-house/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Insights.jsx
+│   ├── pages/
+│   │   ├── ActionableInsights.jsx
+│   │   ├── BusinessIntelligence.jsx
+│   │   ├── WhyDataMatters.jsx
+│   │   └── InsightArticle.css
+│   ├── App.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+*Note: This is a simplified overview. The repository may contain additional components, assets, configuration files, and project folders.*
+
+## Deployment
+
+The website is hosted on Cloudflare Pages.
+
+For a manual deployment, generate the production build using `npm run build` and deploy the contents of the resulting `dist` directory through the Cloudflare Pages deployment workflow.
+
+## Contact
+
+**ASEIX DATA HOUSE**
+*Data, Technology & Intelligence*
+
+For business enquiries, visit the website and use the available contact options.
+
+## Repository
+
+Explore the source code and follow the development of ASEIX DATA HOUSE on GitHub:
+
+https://github.com/NalediM-Dev/aseix-data-house
+
+---
+
+*Building practical solutions through data, technology, and intelligence.*
